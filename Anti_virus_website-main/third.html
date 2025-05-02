@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave Antivirus - New Arrivals</title>
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/TechWave.png" alt="Logo" height="25px" class="me-2"> TechWave Antivirus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                
+            
+                <div class="btn-group me-2">
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-search"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-person"></i></button>
+                    <button type="button" class="btn btn-outline-light"><i class="bi bi-cart3"></i></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header class="bg-danger text-white text-center py-5">
+        <div class="container">
+            <h1><i class="bi bi-stars"></i> New Arrivals</h1>
+            <p class="lead">Explore our latest cybersecurity solutions designed for modern needs</p>
+        </div>
+    </header>
+    <!-- I used breadcrumbs here -->
+    <nav aria-label="breadcrumb" class="container mt-3">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><i class="bi bi-house-door"></i> Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">New Arrivals</li>
+        </ol>
+    </nav>
+
+    <div class="container my-5">
+        <!--I used grow spinner -->
+
+        <div class="d-flex justify-content-center mb-4">
+            <div class="spinner-grow text-primary spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>&nbsp;
+            <div class="spinner-grow text-danger spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>&nbsp;
+            <div class="spinner-grow text-warning spinner-grow-sm" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card h-100 border-primary shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">TechWave Lite <span class="badge bg-light text-dark float-end">New</span></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-shield text-primary" style="font-size: 3rem;"></i>
+                        </div>
+                        <p class="card-text">Lightweight antivirus for basic protection with minimal system impact.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Real-time protection</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Malware scanner</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Web protection</li>
+                        </ul>
+                        <p class="text-success fw-bold fs-4">$19.99/year</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#spinner1">
+                                <span class="spinner-border spinner-border-sm me-2 collapse" id="spinner1"></span> <!-- simple spinner usage-->
+                                Buy Now
+                            </button>
+                            <button class="btn btn-outline-primary" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- made 6 cards using bootstrap -->
+ 
+            <div class="col-md-4">
+                <div class="card h-100 border-warning shadow-sm">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="card-title mb-0">TechWave Family <span class="badge bg-danger text-white float-end">Top Pick</span></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-people-fill text-warning" style="font-size: 3rem;"></i>
+                        </div>
+                        <p class="card-text">Family package with multi-device support for up to 5 devices.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> All Lite features</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Parental controls</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Password manager</li>
+                        </ul>
+                        <p class="text-success fw-bold fs-4">$59.99/year</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#spinner2">
+                                <span class="spinner-border spinner-border-sm me-2 collapse" id="spinner2"></span>
+                                Buy Now
+                            </button>
+                            <button class="btn btn-outline-warning" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-danger shadow-sm">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="card-title mb-0">TechWave Business <span class="badge bg-dark text-white float-end">Hot</span></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-building text-danger" style="font-size: 3rem;"></i>
+                        </div>
+                        <p class="card-text">Complete protection for small businesses with centralized management.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> All Family features</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Device management</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Priority support</li>
+                        </ul>
+                        <p class="text-success fw-bold fs-4">$99.99/year</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#spinner3">
+                                <span class="spinner-border spinner-border-sm me-2 collapse" id="spinner3"></span>
+                                Buy Now
+                            </button>
+                            <button class="btn btn-outline-danger" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="col-md-4">
+                <div class="card h-100 border-success shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="card-title mb-0">TechWave Gamer <span class="badge bg-info text-dark float-end">Optimized</span></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-controller text-success" style="font-size: 3rem;"></i>
+                        </div>
+                        <p class="card-text">High-performance protection designed specifically for gamers.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Game mode</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Low latency</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Cheat protection</li>
+                        </ul>
+                        <p class="text-success fw-bold fs-4">$39.99/year</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#spinner4">
+                                <span class="spinner-border spinner-border-sm me-2 collapse" id="spinner4"></span>
+                                Buy Now
+                            </button>
+                            <button class="btn btn-outline-success" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+   
+            <div class="col-md-4">
+                <div class="card h-100 border-secondary shadow-sm">
+                    <div class="card-header bg-secondary text-white">
+                        <h5 class="card-title mb-0">TechWave Enterprise <span class="badge bg-primary text-white float-end">Corporate</span></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-briefcase text-secondary" style="font-size: 3rem;"></i>
+                        </div>
+                        <p class="card-text">Robust security solutions for enterprises with advanced features.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> All Business features</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Advanced threat analytics</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Dedicated account manager</li>
+                        </ul>
+                        <p class="text-success fw-bold fs-4">$199.99/year</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#spinner5">
+                                <span class="spinner-border spinner-border-sm me-2 collapse" id="spinner5"></span>
+                                Request Quote
+                            </button>
+                            <button class="btn btn-outline-secondary" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 border-info shadow-sm">
+                    <div class="card-header bg-info text-dark">
+                        <h5 class="card-title mb-0">TechWave Secure+ <span class="badge bg-danger text-white float-end">Featured</span></h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-shield-lock text-info" style="font-size: 3rem;"></i>
+                        </div>
+                        <p class="card-text">All-in-one security suite with VPN, firewall, and identity protection.</p>
+                        <ul class="list-group list-group-flush mb-3">
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> All Family features</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Unlimited VPN</li>
+                            <li class="list-group-item"><i class="bi bi-check-circle text-success"></i> Identity theft protection</li>
+                        </ul>
+                        <p class="text-success fw-bold fs-4">$89.99/year</p>
+                    </div>
+                    <div class="card-footer bg-transparent">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#spinner6">
+                                <span class="spinner-border spinner-border-sm me-2 collapse" id="spinner6"></span>
+                                Buy Now
+                            </button>
+                            <button class="btn btn-outline-info" type="button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav aria-label="Page navigation" class="my-5">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="second.html" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="first.html">1</a></li>
+            <li class="page-item"><a class="page-link" href="second.html">2</a></li>
+            <li class="page-item active"><a class="page-link" href="third.html">3</a></li>
+            <li class="page-item disabled">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>TechWave Antivirus</h5>
+                    <p>Your complete cybersecurity solution for home and business.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">Products</a></li>
+                        <li><a href="#" class="text-white">Support</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-envelope"></i> support@TechWaveSolutions.com</li>
+                        <li><i class="bi bi-telephone"></i> +1 (800) 123-4567</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 TechWave Antivirus Software Solutions | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
